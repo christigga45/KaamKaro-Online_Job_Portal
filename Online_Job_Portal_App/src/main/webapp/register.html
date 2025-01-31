@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - KaamKaro</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">KaamKaro</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="userLogin.jsp">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Registration Section -->
+    <section class="login-section">
+        <form action="UserRegistrationServlet" method="post" class="login-form">
+            <h2>Register</h2>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+            
+
+            <button type="submit" class="cta-btn">Register</button>
+
+            <p>Already have an account? <a href="login.html">Login</a></p>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 KaamKaro. All rights reserved.</p>
+    </footer>
+</body>
+</html>
